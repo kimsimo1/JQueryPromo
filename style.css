@@ -1,0 +1,37 @@
+body {background-color: lightgray;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+     }
+#maincontent {padding:15px;}
+
+.topheading {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+            font-size: 3.5em;}
+
+a {text-decoration: none;
+  font-weight: bolder;}
+#second {padding-bottom: 35px;}
+
+#first {
+  font-size: 5vw;
+  color: #ffc107;
+  margin: 30px;
+  padding: 15px;
+}
+
+.z-text {
+  transform: rotateX(30deg) rotateY(-30deg);
+  transition: transform 1s;
+}
+
+[data-z]:hover .z-text {
+  transform: rotateX(-30deg) rotateY(30deg)
+}
+
+.z-layer:not(:first-child) {
+  color: #bf9105;
+}
+
+button {border-radius: 5px;
+       padding: 5px;}
+button:hover {cursor: pointer;}

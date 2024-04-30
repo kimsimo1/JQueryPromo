@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CS50C Week07</title>
+  <link href="style.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" href="simpledropit.min.css" >
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="simpledropit.min.js"></script>
+
+</head>
+
+<body>
+  <div id="maincontent">
+  <h1 class="topheading">Welcome to the world of jQuery plugins!</h1>
+  <h2>Here are two powerful plugins you can easily utilize to greatly enhance the UX of your site.</h2>
+  <br>
+    <hr>
+    <br>
+  <h3>SimpleDropIt turns a file upload input into a simple drag and drop interface.
+    <a href="https://www.jqueryscript.net/form/drag-drop-upload-zone.html" target="_blank">Learn more about SimpleDropIt here.</a>
+  </h3>
+  <br>
+
+  <div class="sd-box sd-advanced-upload">
+
+    <div class="sd-box-wrapper">
+
+      <div class="sd-label-wrapper">
+
+        <span class="sd-box-dragndrop">Drop file here &nbsp;</span>
+
+        <span class="sd-box-file-name"></span>
+
+        <button class="sd-label">Browse <span class="sd-box-browse-file">File</span></button>
+
+        <input type="file" name="files[]" id="example" multiple="">
+      </div>
+
+    </div>
+
+  </div>
+  <p>Note: The example had the "Browse" on a label tag. I changed it to a button with css to change the cursor on hover which I think makes more sense for the user.</p>
+
+  
+  <br>
+    <hr>
+  <br>
+  <h3 id="second" >zText offers many powerful text effects and transformations
+    <a href="https://bennettfeely.com/ztext/" target="_blank">Click here for zText.</a>
+  </h3>
+  <h2 id="first">
+    <span data-z data-z-layers="3" data-z-depth="0.5em" >Hover over me and see what I do. Resize your browser
+      window and watch me scale!</span>
+
+  </h2>
+
+
+
+  </div>
+  <script src="ztext.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
